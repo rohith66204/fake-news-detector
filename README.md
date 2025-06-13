@@ -13,7 +13,7 @@ This project is a web-based Fake News Detection system built using **Python**, *
 ## 🛠️ Tech Stack
 - **Backend:** Python, Django
 - **ML Models:** Scikit-learn (SVM, NB, LR), RNN
-- **Frontend:** HTML, CSS, Bootstrap
+- **Frontend:** HTML, CSS, JavaScript
 - **Database:** SQLite
 
 ## 📊 Algorithms Used
