@@ -1,0 +1,49 @@
+{%extends 'users/userbase.html'%}
+{%load static%}
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #D6EEEE;
+    }
+</style>
+{%block contents%}
+<section id="pricing">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Detecting Fake News Using Machine Learning Algorithms</h2>
+            <p class="wow fadeInDown">Utilizing Naive Bayes Multinomial (NBM), Naive Bayes (NB), and Support Vector Machines (SVM) with the straight bit classifiers</p>
+        </div>
+        <center>
+            <h2>machine Learning Results</h2>
+            <p>
+            <table border="2px">
+                <tr style="color: White">
+                    <td>Naive Bayes</td>
+                    <td>{{cr_nb|safe}}</td>
+                    <td>Support Vector Machine</td>
+                    <td>{{cr_svm|safe}}</td>
+                </tr>
+                <tr style="color: White">
+                    <td>Recurrent Neural Networkt</td>
+                    <td>{{cr_rnn|safe}}</td>
+                    <td>Logistic Regression</td>
+                    <td>{{cr_lg|safe}}</td>
+                </tr>
+
+            </table>
+
+            </p>
+        </center>
+    </div>
+</section><!--/#pricing-->
+
+{%endblock%}
