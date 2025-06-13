@@ -22,18 +22,6 @@ This project is a web-based Fake News Detection system built using **Python**, *
 - Support Vector Machine (SVM)
 - Recurrent Neural Network (RNN)
 
-## 📂 Project Structure
-/fakenews/
-├── users/ # Django app for user views
-├── admins/ # Admin side logic
-├── templates/ # HTML pages
-├── static/ # CSS, JS, Bootstrap assets
-├── utility/ # ML processing scripts
-├── db.sqlite3 # Database
-├── manage.py # Django entry point
-└── FinalDataSet.csv # Training dataset
-
-
 ## 🧪 How It Works
 1. User enters or uploads news content
 2. The system cleans and vectorizes the input
